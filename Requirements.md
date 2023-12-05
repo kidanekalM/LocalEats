@@ -16,3 +16,10 @@
  - Restaurant id name email phonenumber address(Google location)
  - Dish id name Type(appetither,main course, dessert) diet(veggie,vegan) size() price
  - Rating  User id rest id dish id taste customer service Environment time Description replyto
+  Restaurant - id, name, location, picture, phone number              
+ Food - id,name,category, restaurant id, price, ingredients, picture 
+ Customer - id, name, phone number                                   
+ Order - id, Foods, customer, location                               
+ Rating - id, customer, food id                                      
+                                                                     
+
